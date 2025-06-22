@@ -46,4 +46,10 @@ The objective of this project is to develop a Python script that reads data from
 * 🏢 **Corporate**: Automating HR reports, payroll summaries, or project updates.
 * 📈 **Data Analysis Projects**: Documenting insights from analysis in a professional PDF format.
 
+  ### **OUTPUT**
+
+  ![Image](https://github.com/user-attachments/assets/ce99420f-6b18-484f-8623-37d9a08e6831)
+![Image](https://github.com/user-attachments/assets/fee58f83-1648-4f7e-9ee9-634617ab6fcb)
+![Image](https://github.com/user-attachments/assets/e71a1a91-c696-4f43-81b3-e73fc2189548)
+
 
