@@ -1,0 +1,79 @@
+#2.1 Requirements Engineering  
+Requirement engineering is the process of 
+Establishing the services that the customer requires from a system. 
+And the constraints under which it operates and is developed. 
+The requirements themselves are the descriptions of the system services and constraints 
+that are generated during the requirements engineering process. 
+What is a requirement ? 
+A requirement can range from a high-level abstract statement of a service or of a system 
+constraint to a detailed mathematical functional specification.
+The requirement must be open to interpretation and it must be defined in detail.
+
+#2.2 Requirements Engineering Tasks  
+-Requirement engineering is the process characterized for achieving following goals - 
+-Understanding customer requirements and their needs 
+-Analyzing the feasibility of the requirement 
+- Negotiating the reasonable solutions 
+- Specification of an unambiguous solution. 
+- Managing all the requirements of the project 
+- Finally transforming the requirements into the operational systems 
+
+#2.3Class-Responsibility-Collaborator(CRC) Modelling 
+-The Class-Responsibility-Collaborator modelling is a technique which helps in identifying
+and organizing the classes that are relevant to the system requirements. Using this 
+technique the classes required by the system are identified their responsibilities are defined 
+and their collaborations are identified. 
+-Ambler has described the CRC modelling as : “The CRC model is a collection of standard 
+index cards. This card is divided into three sections. 
+The first section contains name of the class, type of 
+the class and characteristics of the class. Then the 
+second section is described at the left side and third 
+section is described at the right side of CRC card. 
+The second section describes the responsibilities and 
+the third section describes the Collaborations. 
+-Class - For selecting particular entity as a class 
+following guideline can be used - 
+1. Information retaining : There are some objects that have potential of retaining the 
+information. This information can be used by the system for defining the functionalities. 
+Hence chosen object must contain some useful information. 
+2. Services : The set of identified objects specify the required services. These services are 
+provided by the various functionalities of the system. Hence the objects must be chosen in 
+such a way that they provide some services to the system. 
+3. Common attributes : Every object defines some set of attributes. These attributes can be 
+member variables or member functions. Some member variables are common to all the 
+objects. The selection of object can be done based on such common characteristics of the 
+system. 
+4. Common operations : Every object defines some set of attributes. These attributes can be 
+member variables or member functions. Some member functions are common to all the 
+objects. The selection of object can be done based on such common characteristics of the 
+system. 
+5. Multiple attributes : The object that contains multiple attributes can retain more 
+information about the system. Such object can provide some useful service to the system. 
+While selecting particular entity as an object it is necessary to ensure that the chosen object 
+has multiple attributes. This will lead to focus on major information.
+6. Essential requirements : The external entities are responsible for producing or consuming 
+some kind of information. These entities can act as an object. Selection of such entities as 
+an object helps to perform various operations that are required for getting the solution of 
+the problem defined by the system.
+ 
+Fishersmith has suggested following types of classes. 
+1. Device classes : The external devices can be declared as the classes such as keyboard, 
+mouse, display, control panel 
+2. Interaction classes : The interaction among various objects can be represented by the
+classes. For example : Account or a purchase 
+3. Property classes : When particular property of the problem environment has to be 
+represented then it can be represented by a class. 
+Various characteristics of objects are : 
+1. Tangibility : Does the class represent the tangible thing or represent an abstract 
+information? 
+2. Sequentiality : Whether the class is concurrent or sequentially defined? 
+3. Inclusiveness : Does the class include other class or it is independent of other class? This 
+represents atomic or aggregate property. 
+4. Persistence : Is the class permanent or temporary ? Sometimes the class created at the 
+design time are removed during the implementation. Such classes are temporary classes 
+and there are some classes that remain in the database. Such classes are called permanent 
+classes. 
+5. Integrity do the class allow other resources to access it or does it protect itself from other 
+resources ? If the class does not allow other resources to access itself then such classes are 
+called guarded and if the classes allow other resources to access itself then such classes 
+are called corruptible.
